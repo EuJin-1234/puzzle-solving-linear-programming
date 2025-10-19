@@ -160,7 +160,8 @@ if __name__ == '__main__':
     print("Starting Optimization for 'The Four Strongest' Puzzle...")
     
     # Load data
-    D_PAIRWISE = load_pairwise_distances(file_name='distances.xlsx')
+    D_PAIRWISE = load_pairwise_distances(file_name='data/distances.xlsx')
     
     if D_PAIRWISE:
         build_and_solve_model(D_PAIRWISE)
+
